@@ -1,3 +1,5 @@
+### **Task 3**
+
 1. What is Big O notation and memory notation?
 2. Why is the map fast in data structures (DS)?
 3. What is the shortest path algorithm in a weighted graph?
@@ -6,18 +8,19 @@
 6. What are the types, problems, and disadvantages of HashMap?
 7. What is a trie?
 
-### Answers
+________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+### Answers :
 
 1. **What is Big O notation and memory notation?**
 
 **Big O Notation:**
 Big O Notation is used to describe the upper bound of an algorithm's time complexity. It provides an asymptotic analysis of an algorithm's efficiency as the input size grows, focusing on the worst-case scenario. Common Big O notations include:
-- \( O(1) \): Constant time
-- \( O(\log n) \): Logarithmic time
-- \( O(n) \): Linear time
-- \( O(n \log n) \): Linearithmic time
-- \( O(n^2) \): Quadratic time
-- \( O(2^n) \): Exponential time
+- \( O(1) ): Constant time
+- \( O(log n) ): Logarithmic time
+- \( O(n) ): Linear time
+- \( O(n log n) ): Linearithmic time
+- \( O(n^2) ): Quadratic time
+- \( O(2^n) ): Exponential time
 
 **Memory Notation:**
 Memory notation describes the amount of memory an algorithm uses as a function of the input size. It is often denoted similarly to Big O notation (e.g., \( O(1) \), \( O(n) \), \( O(n^2) \)) and helps understand the space efficiency of an algorithm.
@@ -63,7 +66,7 @@ The most commonly used shortest path algorithms in weighted graphs are:
 - **Red-black tree:**
   - A self-balancing binary search tree.
   - Ensures that the tree remains balanced through specific properties (e.g., red and black nodes, no two red nodes in a row).
-  - Time Complexity for search, insert, and delete operations is \( O(\log n) \).
+  - Time Complexity for search, insert, and delete operations is \( O(log n) \).
 
 6. **What are the types, problems, and disadvantages of HashMap?**
 
